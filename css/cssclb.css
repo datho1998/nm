@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#main{
+   
+}
+#header{
+    z-index: 100;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(214, 42, 42);
+    /* justify-content: space-between; */
+}
+.firstteam{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.firstteam a,.shop a{
+    font-weight: 600;
+    color: rgb(238, 234, 234);
+    text-decoration: none;
+    padding: 5px;
+}
+.firstteam a:hover{
+    color: #000;
+    background-color:white;
+}
+.shop a:hover{
+    color: #000;
+    background-color:white;
+}
+.shop{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.imglogo{
+    width: 100%;
+}
+.logo{
+    width:70px;
+}
+#slider{
+    margin-top: 80px;
+}
+.radioimg{
+     padding: 0;
+     margin: 0;
+}
+.clb1{
+    width: 100%;
+}
+/*  */
+.roler{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 30px;
+    
+}
+.roler::after{
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 163px;
+    background-color: red;
+    
+}
+#first-team{
+    position: relative;
+    width: 66.66%;
+    margin: 0 auto;
+}
+.position-names{
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    border-bottom: solid rgb(216, 216, 216) 1px;
+}
+.sub-position{
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+    
+}
+.position-btn{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.position-info{
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+}
+.position-number{
+    font-size: 10px
+}
+.position-number::after{
+    display: block;
+    content: " ";
+    height: 1px;
+    width: 20px;
+    background-color: red;
+    transition: 1s;
+}
+.position-name{
+    width: 50%;
+    font-size: 20px;
+}
+.position-img{
+    width: 159%;
+    transition: 1s;
+    
+}
+.position-btn:hover{
+    cursor: pointer;
+}
+.position-btn:hover .position-img{
+    transform: scale(1.1);
+
+}
+.position-btn:hover .position-number::after{
+    width: 40px;
+}
+#manager{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(167, 82, 82);
+}
+.anteta{
+
+}
+.ten,.mana{
+    text-align: center;
+}
+.hlv{
+    width: 50%;
+    padding: 10px;
+}
+.tieusu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.birthday{
+    margin-left: 50px;
+}
+.sunghiep{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 25%;
+}
+.win{
+    float: right;
+}
+.gioithieuhvl{
+    display: flex;
+}
+.play{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: none;
+}
+#footer{
+
+}
+.foot{
+    height: 50px;
+    background-color: rgb(151, 129, 129);
+}
+.ficon{
+    float: right;
+    padding: 20px;
+}
